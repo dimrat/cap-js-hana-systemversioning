@@ -1,0 +1,9 @@
+###
+POST http://localhost:4004/odata/v4/catalog/Book
+Content-type: application/json
+Authorization: Basic admin:
+
+{
+  "ID": 1,
+  "title": "How To Kill a MockingBird"
+}
